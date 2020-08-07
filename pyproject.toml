@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pybricksdev-demo"
+version = "0.1.0"
+description = "Interact with multiple Pybricks hubs in a Jupyter-Notebook using pybricksdev"
+authors = ["The Pybricks Authors <dev@pybricks.com>"]
+maintainers = ["Laurens Valk <laurens@pybricks.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://pybricks.com"
+repository = "https://github.com/pybricks/pybricksdev-demo"
+documentation = "https://docs.pybricks.com"
+
+[tool.poetry.dependencies]
+python = "~3.8"
+doc8 = "*"
+flake8 = "*"
+jupyter = "*"
+matplotlib = "*"
+nbstripout = "*"
+numpy = "*"
+pybricksdev = { git = "https://github.com/pybricks/pybricksdev.git", branch = "master" }
+pybricks = { git = "https://github.com/pybricks/pybricks-api.git", branch = "master" }
+toml = "^0.10.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
