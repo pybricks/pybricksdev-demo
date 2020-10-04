@@ -273,7 +273,7 @@ python-versions = ">=2.7"
 
 [[package]]
 name = "flake8"
-version = "3.8.3"
+version = "3.8.4"
 description = "the modular source code checker: pep8 pyflakes and co"
 category = "main"
 optional = false
@@ -589,7 +589,7 @@ test = ["codecov", "coverage", "ipython", "ipykernel", "ipywidgets", "pytest (>=
 
 [[package]]
 name = "nbconvert"
-version = "6.0.6"
+version = "6.0.7"
 description = "Converting Jupyter Notebooks"
 category = "main"
 optional = false
@@ -822,7 +822,7 @@ validators = ">=0.15.0,<0.16.0"
 type = "git"
 url = "https://github.com/pybricks/pybricksdev.git"
 reference = "master"
-resolved_reference = "e6fe9ab9385559f43db8a35f642188b00b29769d"
+resolved_reference = "edefecce12d59ad0b12bbe90ed95020139514a03"
 
 [[package]]
 name = "pycodestyle"
@@ -1374,8 +1374,8 @@ entrypoints = [
     {file = "entrypoints-0.3.tar.gz", hash = "sha256:c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"},
 ]
 flake8 = [
-    {file = "flake8-3.8.3-py2.py3-none-any.whl", hash = "sha256:15e351d19611c887e482fb960eae4d44845013cc142d42896e9862f775d8cf5c"},
-    {file = "flake8-3.8.3.tar.gz", hash = "sha256:f04b9fcbac03b0a3e58c0ab3a0ecc462e023a9faf046d57794184028123aa208"},
+    {file = "flake8-3.8.4-py2.py3-none-any.whl", hash = "sha256:749dbbd6bfd0cf1318af27bf97a14e28e5ff548ef8e5b1566ccfb25a11e7c839"},
+    {file = "flake8-3.8.4.tar.gz", hash = "sha256:aadae8761ec651813c24be05c6f7b4680857ef6afaae4651a4eccaef97ce6c3b"},
 ]
 hyperlink = [
     {file = "hyperlink-20.0.1-py2.py3-none-any.whl", hash = "sha256:c528d405766f15a2c536230de7e160b65a08e20264d8891b3eb03307b0df3c63"},
@@ -1531,8 +1531,8 @@ nbclient = [
     {file = "nbclient-0.5.0.tar.gz", hash = "sha256:8ad52d27ba144fca1402db014857e53c5a864a2f407be66ca9d74c3a56d6591d"},
 ]
 nbconvert = [
-    {file = "nbconvert-6.0.6-py3-none-any.whl", hash = "sha256:d8549f62e739a4d51f275c2932b1783ee5039dde07a2b71de70c0296a42c8394"},
-    {file = "nbconvert-6.0.6.tar.gz", hash = "sha256:68335477288aab8a9b9ec03002dce59b4eb1ca967116741ec218a4e78c129efd"},
+    {file = "nbconvert-6.0.7-py3-none-any.whl", hash = "sha256:39e9f977920b203baea0be67eea59f7b37a761caa542abe80f5897ce3cf6311d"},
+    {file = "nbconvert-6.0.7.tar.gz", hash = "sha256:cbbc13a86dfbd4d1b5dee106539de0795b4db156c894c2c5dc382062bbc29002"},
 ]
 nbformat = [
     {file = "nbformat-5.0.7-py3-none-any.whl", hash = "sha256:ea55c9b817855e2dfcd3f66d74857342612a60b1f09653440f4a5845e6e3523f"},
@@ -1626,6 +1626,8 @@ pillow = [
     {file = "Pillow-7.2.0-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:5e51ee2b8114def244384eda1c82b10e307ad9778dac5c83fb0943775a653cd8"},
     {file = "Pillow-7.2.0-cp38-cp38-win32.whl", hash = "sha256:725aa6cfc66ce2857d585f06e9519a1cc0ef6d13f186ff3447ab6dff0a09bc7f"},
     {file = "Pillow-7.2.0-cp38-cp38-win_amd64.whl", hash = "sha256:a060cf8aa332052df2158e5a119303965be92c3da6f2d93b6878f0ebca80b2f6"},
+    {file = "Pillow-7.2.0-pp36-pypy36_pp73-macosx_10_10_x86_64.whl", hash = "sha256:9c87ef410a58dd54b92424ffd7e28fd2ec65d2f7fc02b76f5e9b2067e355ebf6"},
+    {file = "Pillow-7.2.0-pp36-pypy36_pp73-manylinux2010_x86_64.whl", hash = "sha256:e901964262a56d9ea3c2693df68bc9860b8bdda2b04768821e4c44ae797de117"},
     {file = "Pillow-7.2.0-pp36-pypy36_pp73-win32.whl", hash = "sha256:25930fadde8019f374400f7986e8404c8b781ce519da27792cbe46eabec00c4d"},
     {file = "Pillow-7.2.0.tar.gz", hash = "sha256:97f9e7953a77d5a70f49b9a48da7776dc51e9b738151b22dacf101641594a626"},
 ]
